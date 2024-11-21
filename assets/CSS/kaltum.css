@@ -1,0 +1,498 @@
+/**NavBar**/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  padding: 10px 20px;
+  height: 65px;
+}
+
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+
+.topbar {
+  background-color: #ff008c !important;
+  height: 35px;
+}
+
+.navbar-icons {
+  font-size: 18px !important;
+  color: aliceblue;
+}
+
+.navbar-icons:hover {
+  color: #00a2ff;
+}
+
+.fonticons {
+  padding: 0px 45%;
+}
+
+.form-control1,
+.form-control2 {
+  height: 25px !important;
+}
+
+.search {
+  margin-top: -7px;
+}
+
+.logo {
+  width: 160px !important;
+  height: 40px;
+}
+/* HERO */
+
+.hero {
+  background-image: linear-gradient(to bottom, #00a2ff79, #ff008c79),
+    url(../images/pexels-godisable-jacob-1252982.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.hero > div {
+  margin: 300px 0px 0px 100px;
+}
+
+.heroh1,
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: antiquewhite;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "Metal", cursive !important;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.herosbtn {
+  background-color: #ff008c;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: antiquewhite;
+}
+
+/* MIDDLE */
+
+.mid2 {
+  background-color: rgba(230, 226, 255, 0.705);
+  padding: 30px;
+}
+
+.cardimg {
+  height: 140px;
+}
+.column {
+  border-radius: 8px !important;
+  background-color: #e6e2ffb4;
+}
+h6 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h6 + p {
+  text-align: center;
+}
+
+.tip-icons {
+  font-size: 80px;
+  padding: 0px 0px 8px 70px;
+}
+
+#bfeatures {
+  background-image: linear-gradient(to bottom, #00a2ff79, #ff008c79),
+    url(../images/pexels-godisable-jacob-1252982.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+#bfeatures > div {
+  margin: 250px 0px 0px 100px;
+}
+
+.heading {
+  color: rgb(0, 162, 255);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.featured {
+  width: 195px;
+  height: 25rem;
+}
+
+.featuredbtn {
+  width: 80px;
+  height: 35px;
+}
+
+.selling {
+  color: #ff008c;
+}
+
+.blog {
+  background-color: #fad3e844;
+}
+
+.blogcard {
+  width: 22rem !important;
+}
+
+.cimg {
+  width: 5rem;
+  margin: 0 5rem;
+}
+
+#footer {
+  background-color: #e6e2ffb4;
+}
+
+.payments {
+  width: 14rem;
+  padding-top: 10px;
+}
+
+/* CONTACT US */
+h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin: 20px;
+}
+#contacthero {
+  background-image: linear-gradient(to bottom, #00a2ffc0, #ff008cc0),
+    url(../images/lady\ on\ call2.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+#contacthero > h1 {
+  color: antiquewhite;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 300px 100px 0 100px;
+}
+
+.contactbrand {
+  color: black;
+  padding-left: 45%;
+}
+
+.fa-brands {
+  color: #ffffff;
+  font-size: 45px;
+  margin: 20px;
+}
+
+#faq {
+  background-color: #e6e2ffec;
+  padding: 50px;
+}
+
+.accordion-item > h3 > button {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* ABOUT US */
+
+#abouthero {
+  background-image: linear-gradient(to bottom, #00a2ff8d, #ff008c8d),
+    url(../images/lady\ on\ call.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+#abouthero > h1 {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 450px 100px 0 100px;
+}
+
+#abouthero > h4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  padding: 10px 200px 0 200px;
+}
+
+.aboutusimg {
+  background-image: linear-gradient(to bottom, #00a2ff8d, #ff008c8d),
+    url(../images/aboutus.jpg);
+  width: 50%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.aboutusimg1 {
+  background-image: linear-gradient(to bottom, #00a2ff8d, #ff008c8d),
+    url(../images/lady\ on\ call2.jpg);
+  width: 50%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.carousel-inner {
+  text-align: center !important;
+}
+
+.card-body {
+  text-align: center;
+}
+
+/* RESPONSIVENESS */
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) and (min-width: 425px) {
+  /* NAVBAR */
+  .navbar {
+    height: 65px !important;
+  }
+  .navbar-expand-md .navbar-nav {
+    font-size: 14px;
+    margin-bottom: 0 !important;
+  }
+  .form-control1 {
+    height: 25px !important;
+    width: 156px;
+  }
+
+  .form-control.me-2 {
+    height: 2rem;
+    width: 9rem;
+    font-size: 0.8rem;
+  }
+
+  .nav-main-button {
+    font-size: 0.7em;
+  }
+
+  .hero {
+    background-image: linear-gradient(to bottom, #00a2ff79, #ff008c79),
+      url(../images/pexels-godisable-jacob-1252982.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 5px;
+  }
+
+  .heroh1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: calc(1.2rem + 1vw);
+  }
+
+  h5 {
+    font-family: "Metal", cursive !important;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+
+  /* 1st at the middle */
+
+  .fa-solid {
+    font-weight: 900;
+    margin-left: -35px;
+    font-size: 50px;
+  }
+
+  h6 {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  h6 + p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .heading {
+    color: #00a2ff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: -3px;
+  }
+
+  #bfeatures {
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+  }
+
+  .heading {
+    color: #00a2ff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: -3px;
+  }
+
+  .blogcard {
+    width: 13.5rem !important;
+  }
+
+  .blogimg {
+    height: 13rem;
+  }
+
+  .cimg {
+    width: 3rem;
+    margin: 0 2rem;
+  }
+
+  .fontawe {
+    font-size: 50px !important;
+  }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 425px) {
+  .hero {
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .heroh1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: calc(1.2rem + 1vw);
+  }
+
+  h5 {
+    font-family: "Metal", cursive !important;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .navbar-collapse.collapse.show {
+    background-color: #ffffff !important;
+    padding: 2rem 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    color: black !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .form-control.me-2 {
+    height: 2.5rem;
+    width: 12rem;
+    font-size: 1rem;
+  }
+
+  .hero > div {
+    margin: 16rem 0 0 5rem;
+  }
+
+  .navbar-collapse {
+    background-color: #f8f9fa; /* Change this to your desired background color */
+  }
+
+  /* icons */
+  .column {
+    border-radius: 8px !important;
+    background-color: #e6e2ffb4;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.tip-icons {
+  font-size: 3rem;
+  padding: 0 0 0.5rem 0;
+  margin: 0;
+}
+
+
+
+
+
+  .payments {
+    width: 12rem;
+  }
+
+  .fontawe {
+    font-size: 1rem !important;
+  }
+
+  .footer-contacts i,
+  .footer-contacts p {
+    margin: 5px 0; /* Adjust the margin as needed */
+  }
+
+  .footer-contacts p {
+    margin: 5px 0;
+    font-size: 12px;
+  }
+
+  footer > .container {
+    padding: 2rem 1rem;
+  }
+}
